@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(31, 42, 46, 0.07) 1px,
+    transparent 0
+  );
+  background-size: 24px 24px;
+}
+
+::selection {
+  background: #1f2a2e;
+  color: #eef3f1;
+}
